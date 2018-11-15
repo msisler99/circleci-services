@@ -4,7 +4,7 @@ data "terraform_remote_state" "shared" {
 
  config {
    bucket = "ttg-tf-test-bucket"
-   key    = "dev/terraform.tfstate"
+   key    = "dev/public/terraform.tfstate"
    region = "us-west-2"
  }
 }
